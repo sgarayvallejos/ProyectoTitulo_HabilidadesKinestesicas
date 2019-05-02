@@ -6,10 +6,11 @@ using UnityEngine;
 public class saludables : MonoBehaviour
 {
     private GameObject healthbar;
-
+   
     void Start()
     {
         healthbar = GameObject.Find("barra");
+        
     }
 
     public void OnTriggerEnter2D(Collider2D colisionado)
@@ -17,7 +18,7 @@ public class saludables : MonoBehaviour
         comidasaludable(colisionado);
         comidanosaludable(colisionado);
 
-        if(colisionado.tag == "endmission")
+        if (colisionado.tag == "endmission")
         {
             cargarEscena("end");
         }
@@ -44,4 +45,5 @@ public class saludables : MonoBehaviour
             healthbar.SendMessage("voidTakeBadAliment",10);
         }
     }
+    
 }

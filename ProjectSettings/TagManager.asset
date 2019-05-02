@@ -7,6 +7,7 @@ TagManager:
   - saludable
   - endmission
   - nosaludable
+  - trampa
   layers:
   - Default
   - TransparentFX

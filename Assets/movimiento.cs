@@ -5,7 +5,7 @@ using UnityEngine;
 public class movimiento : MonoBehaviour
 {
     public Rigidbody2D rBD;
-    public float speed = 1f, jumpforce =25;
+    public float speed = 1f, jumpforce =15;
 
     public float radio = 0.2f;
     public LayerMask layersuelo;

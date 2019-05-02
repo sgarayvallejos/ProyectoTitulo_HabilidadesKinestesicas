@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class selectgirl : MonoBehaviour
 {
-    public GameObject playerBoy, playegirl;
+
+    public Image Uimage;
+
+    public Sprite uisprite;
+
+    
     // Start is called before the first frame update
-
-    GameObject play1, play2;
-
     void Start()
     {
-     
+      
     }
 
     // Update is called once per frame
