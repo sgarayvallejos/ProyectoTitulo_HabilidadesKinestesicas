@@ -6,6 +6,7 @@ TagManager:
   tags:
   - saludable
   - endmission
+  - nosaludable
   layers:
   - Default
   - TransparentFX
